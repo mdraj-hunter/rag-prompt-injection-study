@@ -160,10 +160,6 @@ explicit and inspectable rather than implicit in the aggregation code.
 
 
 
-\## Known Limitations
-
-
-
 ## Results (42-case benchmark, single run)
 
 | Config | ASR | Defense Success Rate | FPR | Avg Latency (s) |

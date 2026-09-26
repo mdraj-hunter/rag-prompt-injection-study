@@ -1,0 +1,9 @@
+services:
+  rag-experiment:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+    command: python -m evaluation.run_experiments
